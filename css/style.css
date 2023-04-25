@@ -1,0 +1,33 @@
+@import url('https://fonts.cdnfonts.com/css/john-wick');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+}
+
+/*
+font-family: 'John Wick', sans-serif;
+font-family: 'Koulen', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+ */
+
+
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #162336;
+    color: #8d96a7;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.96rem;
+    font-weight: 300;
+}
+.bg {
+    background: url(/img/img-walp-01.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
