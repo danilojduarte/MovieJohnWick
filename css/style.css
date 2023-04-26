@@ -37,6 +37,13 @@ body {
 header {
     background: rgba(255, 255, 255, 0.10);
     border-radius: 0 0 10px 10px;
+    border-bottom: rgba(255, 255, 255, 0.08) solid 1px;
+    
+    margin: 0 7px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -46,4 +53,21 @@ header {
     font-size: 1.8rem;
     display: inline;
     padding: 6px 15px;
+}
+
+#chk-toggle {
+    display: none;
+}
+
+#toggle {
+    display: inline-block;
+    padding: 11px;
+}
+
+#toggle span {
+    display: block;
+    width: 22px;
+    height: 3px;
+    background: #8d96a7;
+    margin: 2px;
 }
