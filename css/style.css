@@ -7,6 +7,8 @@
     box-sizing: border-box;
     position: relative;
     border: none;
+    list-style: none;
+    text-decoration: none;
 }
 
 /*
@@ -30,4 +32,18 @@ body {
     background: url(/img/img-walp-01.jpg) no-repeat center;
     background-size: cover;
     height: 100%;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 0 0 10px 10px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: 'John Wick', sans-serif;
+    color: #fff;
+    font-size: 1.8rem;
+    display: inline;
+    padding: 6px 15px;
 }
