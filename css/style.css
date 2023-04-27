@@ -111,7 +111,33 @@ nav a {
 .home h1 {
     font-family: 'John Wick', sans-serif;
     color: white;
-    font-size: 6rem;
+    font-size: 9rem;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
     line-height: 3.3rem;
+}
+
+.buttons {
+    display: flex;
+    margin: 0 -3px;
+}
+
+.btn-dark {
+    font-family: 'Koulen', cursive;
+    text-decoration: none;
+    background: #000;
+    border: #000 solid 1px;
+    color: #fff;
+    padding: 5px 24px;
+    margin: 4px;
+    font-size: 0.9rem;
+}
+.btn-light {
+    font-family: 'Koulen', cursive;
+    text-decoration: none;
+    background: #000;
+    border: #000 solid 1px;
+    color: #fff;
+    padding: 5px 24px;
+    margin: 4px;
+    font-size: 0.9rem;
 }
