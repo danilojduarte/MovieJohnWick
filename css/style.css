@@ -17,3 +17,25 @@ font-family: 'Koulen', cursive;
 font-family: 'Roboto Condensed', sans-serif;
  */
 
+ :root {
+    font-size: 62.5%;
+}
+
+/* Classes Gerais */
+
+img {
+    width: 100%;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 8rem;
+    margin: auto;
+}
+
+.logo {
+    max-width: 10%;
+}
