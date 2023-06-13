@@ -39,3 +39,8 @@ header {
 .logo {
     max-width: 10%;
 }
+
+h1 {
+    font-family: 'John Wick', sans-serif;
+    font-size: 10rem;
+}
