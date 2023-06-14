@@ -7,6 +7,8 @@
     box-sizing: border-box;
     position: relative;
     border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+
     list-style: none;
     text-decoration: none;
 }
@@ -17,28 +19,80 @@ font-family: 'Koulen', cursive;
 font-family: 'Roboto Condensed', sans-serif;
  */
 
+ /* Classes Gerais */
+
  :root {
     font-size: 62.5%;
+
+    
+    --color-primary: #ff0000;
+    --color-secondary: #000;
+    --text-color: #808080;
+
+    --color-white: #fff;
 }
 
-/* Classes Gerais */
+body {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
 
-img {
-    width: 100%;
+    padding: 0 1rem;
 }
 
-header {
-    background-color: black;
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-center {
+    text-align: center;
+}
+
+header,
+footer {
+    padding: 1.25rem;
+    border: 1px solid var(--color-white);
+}
+
+header img {
+    display: block;
+    margin: 1rem auto;
+}
+
+header nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 8rem;
-    margin: auto;
+    text-align: center;
+    justify-content: center;
 }
 
-.logo {
-    max-width: 10%;
+header nav a {
+    color: var(--color-white);
+    font-size: 2.25rem;
+    padding: .5rem;
+    text-decoration: none;
 }
+
+
 
 h1 {
     font-family: 'John Wick', sans-serif;
