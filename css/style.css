@@ -79,6 +79,10 @@ header img {
     margin: 1rem auto;
 }
 
+header .logo {
+ width: fit-content;
+}
+
 header nav{
     display: flex;
     text-align: center;
