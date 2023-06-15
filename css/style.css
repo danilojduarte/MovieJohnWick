@@ -69,7 +69,26 @@ body {
 }
 
 .button {
-    
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-white);
+    border-radius: .8rem;
+    box-shadow: 4px 4px 0 var(--color-secondary);
+    color: var(--color-white);
+    display: block;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: .75rem 1rem;
+    max-width: 14rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transition: all .3s ease-in-out;
+}
+.button:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border: none;
 }
 
 header,
@@ -97,8 +116,14 @@ header nav{
 header nav a {
     color: var(--color-white);
     font-size: 2.25rem;
+    font-weight: bold;
     padding: .5rem;
     text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+header nav a:hover {
+    color: var(--color-primary);
 }
 
 
