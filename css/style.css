@@ -71,7 +71,7 @@ body {
 .button {
     background-color: var(--color-white);
     border: 1px solid var(--color-white);
-    border-radius: .8rem;
+    border-radius: .6rem;
     box-shadow: 4px 4px 0 var(--color-secondary);
     color: var(--color-secondary);
     display: block;
@@ -94,7 +94,7 @@ body {
 header,
 footer {
     padding: 1.25rem;
-    border: 1px solid var(--color-white);
+    border: 0.6px solid var(--color-white);
 }
 
 header {
@@ -137,17 +137,12 @@ header nav a:hover {
     color: var(--color-primary);
 }
 
-
-
-h1 {
-    font-family: 'John Wick', sans-serif;
-    font-size: 10rem;
-}
-
 /* SECTION HERO */
 .hero-section {
     padding-right: 0;
     padding-bottom: 16rem;
+    
+    
 }
 
 .hero-section img{
@@ -155,4 +150,22 @@ h1 {
     margin: 1.25rem 0 0 auto;
     max-width: 100%;
     border-radius: .8rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'John Wick', sans-serif;
+    font-size: 8rem;
+    line-height: 105%;
+}
+
+.hero-section p {
+    font-size: 1.50rem;
+    text-align: justify;
 }
