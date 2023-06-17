@@ -33,7 +33,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
-    background-color: var(--color-secondary);
+    background-color: var(--text-color);
     color: var(--color-white);
 
     padding: 0 1rem;
@@ -94,11 +94,11 @@ body {
 header,
 footer {
     padding: 1.25rem;
-    border: 0.6px solid var(--color-white);
+    border: 0.2px solid var(--color-white);
 }
 
 header {
-    background-color: #24252a;
+    background-color: var(--color-secondary);
     box-shadow: 0px 3px 10px #464646;
 }
 
@@ -120,7 +120,7 @@ header nav{
     display: flex;
     text-align: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 header nav a {
@@ -169,3 +169,8 @@ h1 {
     font-size: 1.50rem;
     text-align: justify;
 }
+
+/* Section CardsMovies */
+
+
+/* Section Footer */
