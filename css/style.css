@@ -33,7 +33,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
-    background-color: var(--text-color);
+    background-color: var(--color-secondary);
     color: var(--color-white);
 
     padding: 0 1rem;
@@ -178,6 +178,21 @@ h1 {
 
 .card-movie {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-movie h2 {
+    line-height: 105%;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.card-movie p {
+    text-align: justify;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 2rem;
 }
 
 .card-img img{
