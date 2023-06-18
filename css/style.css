@@ -182,13 +182,17 @@ h1 {
     text-align: center;
 }
 
+.card-titulo {
+    border-top: 0.4px solid var(--text-color);
+    padding-top: 4rem;
+}
+
 .card-movie h2 {
     line-height: 105%;
     font-size: 3rem;
     margin-bottom: 1rem;
 
-    border-top: 1px solid var(--text-color);
-    padding-top: 4rem;
+    
 }
 
 .card-movie p {
