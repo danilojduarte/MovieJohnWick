@@ -195,6 +195,29 @@ h1 {
     font-size: 2rem;
 }
 
+.list-icons ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    
+    margin-top: 2rem;
+}
+
+.card-movie i {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    cursor: pointer;
+
+    transition: all .3s ease-in-out;
+}
+.card-movie i:hover {
+    border: 1.8px solid var(--color-primary);
+    border-radius: 50%;
+
+    color: var(--color-primary);    
+}
+
 .card-img img{
     display: block;
     margin: 1.25rem 0 0 auto;
