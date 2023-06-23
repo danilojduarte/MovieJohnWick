@@ -342,10 +342,9 @@ h1 {
 
 /* Section Baillarina */
 section .section-bailarina {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  grid-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .section-bailarina img {
@@ -354,6 +353,28 @@ section .section-bailarina {
   max-width: 100%;
   border-radius: 0.8rem;
   margin-bottom: 2rem;
+}
+
+.conteudo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.conteudo-text h3 {
+  font-size: 2rem;
+  line-height: 105%;
+}
+
+.conteudo-text span {
+  font-size: 2rem;
+  line-height: 100%;
+  color: var(--text-color);
+}
+
+.conteudo-text p {
+  text-align: justify;
+  line-height: 105%;
 }
 
 /* Section Footer */
