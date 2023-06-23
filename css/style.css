@@ -25,8 +25,8 @@ font-family: 'Roboto Condensed', sans-serif;
 
   --color-primary: #ff0000;
   --color-secondary: #000;
-  --text-color: #c9c7c7;
 
+  --text-color: #c9c7c7;
   --color-text-dark: #6f6d6d;
 
   --color-white: #fff;
@@ -97,7 +97,6 @@ body {
 p {
   color: var(--text-color);
   margin-bottom: 1rem;
-  color: var(--text-color);
   font-size: 2rem;
 }
 
@@ -195,7 +194,6 @@ h1 {
 .movies-title p {
   color: var(--text-color);
   margin-bottom: 1rem;
-  color: var(--text-color);
   font-size: 2rem;
 }
 
@@ -274,6 +272,7 @@ h1 {
     margin: 0 auto;
     justify-content: center;
     max-width: 1200px;
+    height: auto;
     gap: 24px;
 }
  
@@ -287,18 +286,25 @@ h1 {
     border-radius: 16px;
 }
 
-.articles article a {
+/* .articles article a {
     display: inline-flex;
     color: var(--primary);
     text-decoration: none;
-}
+} */
 
 
 .articles article h2 {
     margin: 0 0 18px 0;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: var(--secondary);
+    font-weight: bold;
     transition: color 0.3s ease-out;
+}
+
+.articles article p {
+  color: var(--color-text-dark);
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
   
   
@@ -309,8 +315,14 @@ h1 {
 }
   
 .article-preview {
-    padding: 24px;
+    padding: 18px;
     background: white;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .articles figure {
@@ -327,7 +339,7 @@ h1 {
 }
 
 .articles article:hover img {
-    transform: scale(1.5); 
+    transform: scale(1.2); 
 }
 
 /* Section Footer */
