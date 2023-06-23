@@ -378,3 +378,20 @@ section .section-bailarina {
 }
 
 /* Section Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  color: var(--color-white);
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
