@@ -296,7 +296,7 @@ h1 {
 .articles article h2 {
     margin: 0 0 18px 0;
     font-size: 2rem;
-    color: var(--secondary);
+    color: var(--color-secondary);
     font-weight: bold;
     transition: color 0.3s ease-out;
 }
@@ -316,7 +316,7 @@ h1 {
   
 .article-preview {
     padding: 18px;
-    background: white;
+    background: var(--text-color);
 
     height: 100%;
 
@@ -340,6 +340,11 @@ h1 {
 
 .articles article:hover img {
     transform: scale(1.2); 
+}
+
+/* Section Baillarina */
+section .section-bailarina {
+  display: flex;
 }
 
 /* Section Footer */
