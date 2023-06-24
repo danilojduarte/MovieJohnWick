@@ -385,6 +385,12 @@ section .section-bailarina {
   text-align: center;
 }
 
+footer .footer-logo h2 {
+  font-family: "John Wick", sans-serif;
+  font-size: 3rem;
+  line-height: 105%;
+}
+
 .footer-nav a {
   display: flex;
   flex-direction: column;
@@ -398,7 +404,27 @@ section .section-bailarina {
   transition: all 0.3s ease-in-out;
 }
 
-.footer-links {
+.footer-nav a:hover  {
+  color: var(--color-primary);
+}
+
+.footer-links ul {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-links ul li a i {
+  font-size: 2rem;
+  color: var(--color-white);
+
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-links ul li a i:hover {
+  border: 1.8px solid var(--color-primary);
+  border-radius: 50%;
+
+  color: var(--color-primary);
 }
