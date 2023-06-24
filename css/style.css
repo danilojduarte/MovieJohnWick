@@ -383,6 +383,8 @@ section .section-bailarina {
   flex-direction: column;
 
   text-align: center;
+
+  padding: 1rem 1.25rem 4rem;
 }
 
 footer .footer-logo h2 {
