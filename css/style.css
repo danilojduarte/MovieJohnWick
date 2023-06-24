@@ -449,6 +449,7 @@ footer .footer-logo h2 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    
   }
   
   
@@ -474,7 +475,7 @@ footer .footer-logo h2 {
   header div {
     display: fex;
     flex-direction: row;  
-    
+    justify-content: space-between;
   }
 }
   
