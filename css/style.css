@@ -381,6 +381,8 @@ section .section-bailarina {
 .footer {
   display: flex;
   flex-direction: column;
+
+  text-align: center;
 }
 
 .footer-nav a {
@@ -394,4 +396,9 @@ section .section-bailarina {
   padding: 0.5rem;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
 }
