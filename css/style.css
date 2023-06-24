@@ -476,6 +476,45 @@ footer .footer-logo h2 {
     display: fex;
     flex-direction: row;  
     justify-content: space-between;
+
+    padding: 0 4rem;
   }
+
+  header img,
+  header nav,
+  header .button {
+    margin: 0;
+  }
+
 }
   
+@media screen and (min-width: 72rem) {
+  .container {
+    display: flex;
+    padding: 0 2rem;
+
+    
+    
+
+
+
+    /* align-items: center; */
+    
+    /* align-items: center; */
+    /* margin: 0 auto; */
+    /* max-width: 92rem; */
+
+    /* justify-content: space-between; */
+  }
+  .container.row-reverse {
+    flex-direction: row-reverse;
+  } 
+
+  .main-content {
+    padding-left: 2rem;
+    align-items: flex-start;
+  }
+  .main-content p {
+    text-align: start;
+  }
+}
