@@ -103,7 +103,7 @@ p {
 header,
 footer {
   padding: 1.25rem;
-  border: .1px solid var(--color-white);
+  border: 0.1px solid var(--color-white);
 }
 
 header {
@@ -216,14 +216,12 @@ h1 {
 }
 
 .card-titulo {
-  
   padding-top: 4rem;
 }
 
 .card-movie h2 {
   line-height: 105%;
   font-size: 3rem;
-  
 
   margin-bottom: 1rem;
 }
@@ -415,7 +413,7 @@ footer .footer-logo h2 {
   transition: all 0.3s ease-in-out;
 }
 
-.footer-nav a:hover  {
+.footer-nav a:hover {
   color: var(--color-primary);
 }
 
@@ -440,7 +438,6 @@ footer .footer-logo h2 {
   color: var(--color-primary);
 }
 
-
 /* Responsividade */
 
 @media screen and (min-width: 40rem) {
@@ -449,10 +446,8 @@ footer .footer-logo h2 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
   }
-  
-  
+
   header nav {
     display: block;
   }
@@ -474,7 +469,7 @@ footer .footer-logo h2 {
 @media screen and (min-width: 48rem) {
   header div {
     display: fex;
-    flex-direction: row;  
+    flex-direction: row;
     justify-content: space-between;
 
     padding: 0 4rem;
@@ -485,21 +480,32 @@ footer .footer-logo h2 {
   header .button {
     margin: 0;
   }
-
 }
-  
+
 @media screen and (min-width: 72rem) {
+  /*reset */
+  /* nav#navegacao .full-screen * {
+    margin: 0;
+    padding: 0;
+    visibility: initial;
+    display: initial;
+    opacity: initial;
+    flex-direction: initial;
+    position: initial;
+    font-size: initial;
+    transform: initial;
+    color: initial;
+    background-color: initial;
+    font-weight: initial;
+    filter: initial;
+  } */
+
   .container {
     display: flex;
     padding: 0 2rem;
 
-    
-    
-
-
-
     /* align-items: center; */
-    
+
     /* align-items: center; */
     /* margin: 0 auto; */
     /* max-width: 92rem; */
@@ -507,8 +513,41 @@ footer .footer-logo h2 {
     /* justify-content: space-between; */
   }
   .container.row-reverse {
+    display: flex;
     flex-direction: row-reverse;
-  } 
+    align-items: center;
+    max-width: 120rem;
+
+    gap: 2rem;
+  }
+
+  .card-movie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    max-width: 1024px;
+  }
+
+  .full-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .row-reverse .main-content h1 {
+    font-size: 22rem;
+  }
+
+  .row-reverse .main-content p {
+    font-size: 3rem;
+  }
+
+  .row-reverse img {
+    padding-top: 4rem;
+    border-radius: 4rem;
+    width: 100%;
+  }
 
   .main-content {
     padding-left: 2rem;
@@ -516,5 +555,26 @@ footer .footer-logo h2 {
   }
   .main-content p {
     text-align: start;
+  }
+
+  .serie {
+    display: flex;
+    
+  }
+
+  .conteudo-serie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    justify-content: center;
+    
+  }
+  .conteudo-serie img {
+    display: block;
+    margin: auto;
+    max-width: 40%;
+    border-radius: 0.8rem;
   }
 }
