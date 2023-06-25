@@ -502,7 +502,7 @@ footer .footer-logo h2 {
 
   .container {
     display: flex;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
 
     /* align-items: center; */
 
@@ -522,11 +522,15 @@ footer .footer-logo h2 {
   }
 
   .card-movie {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
 
-    max-width: 1024px;
+    /* max-width: 1024px; */
+  }
+
+  .card-movie img { 
+    width: 100%;
   }
 
   .full-screen {
