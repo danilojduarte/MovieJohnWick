@@ -440,7 +440,7 @@ footer .footer-logo h2 {
 
 /* Responsividade */
 
-@media screen and (min-width: 40rem) {
+@media (min-width: 40rem) {
   header {
     display: flex;
     flex-direction: column;
@@ -466,7 +466,7 @@ footer .footer-logo h2 {
   }
 }
 
-@media screen and (min-width: 48rem) {
+@media (min-width: 48rem) {
   header div {
     display: fex;
     flex-direction: row;
@@ -482,7 +482,7 @@ footer .footer-logo h2 {
   }
 }
 
-@media screen and (min-width: 72rem) {
+@media (min-width: 72rem) {
   /*reset */
   /* nav#navegacao .full-screen * {
     margin: 0;
@@ -521,25 +521,30 @@ footer .footer-logo h2 {
     gap: 2rem;
   }
 
-  .card-movie {
+  #filmes .card-movie {
+
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
+    grid-template-columns: 60.5rem 1fr;
+    grid-template-areas: 
+    'A B'
+    'C C';
+  }
+  #filmes .col-a {
+    grid-area: A;
+    margin-left: 3rem;
+  }
+  #filmes .col-b {
+    padding: 0;
+    margin: 0;
 
-    /* max-width: 1024px; */
+    grid-area: B;
+    max-width: 100%;
+  }
+  #filmes .col-c {
+    grid-area: C;
   }
 
-  .card-movie img { 
-    width: 100%;
-  }
-
-  .full-screen {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .row-reverse .main-content h1 {
+ .row-reverse .main-content h1 {
     font-size: 22rem;
   }
 
@@ -548,7 +553,7 @@ footer .footer-logo h2 {
   }
 
   .row-reverse img {
-    padding-top: 4rem;
+    /* padding-top: 4rem; */
     border-radius: 4rem;
     width: 100%;
   }
