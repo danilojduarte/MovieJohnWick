@@ -41,7 +41,6 @@ body {
 
   padding: 0 1rem;
 
-
   max-width: 1250px;
   padding: 0;
   margin: 0 auto !important;
@@ -469,9 +468,16 @@ footer .footer-logo h2 {
 
     gap: 2rem;
   }
+  .conteudo-text span {
+    text-align: justify;
+    line-height: 150%;
+  }
 }
 
 @media (min-width: 48rem) {
+  body {
+    padding: 2rem;
+  }
   header div {
     display: fex;
     flex-direction: row;
@@ -527,12 +533,11 @@ footer .footer-logo h2 {
   }
 
   #filmes .card-movie {
-
     display: grid;
     grid-template-columns: 60.5rem 1fr;
-    grid-template-areas: 
-    'A B'
-    'C C';
+    grid-template-areas:
+      "A B"
+      "C C";
   }
   #filmes .col-a {
     grid-area: A;
@@ -549,7 +554,7 @@ footer .footer-logo h2 {
     grid-area: C;
   }
 
- .row-reverse .main-content h1 {
+  .row-reverse .main-content h1 {
     font-size: 22rem;
   }
 
@@ -571,24 +576,25 @@ footer .footer-logo h2 {
     text-align: start;
   }
 
-  .serie {
-    display: flex;
-    
+  #serie .conteudo-text h3 {
+    text-align: center;
+
+    line-height: 105%;
+    font-size: 3rem;
+
+    padding-top: 2rem;
+    margin-bottom: 1rem;
   }
 
-  .conteudo-serie {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    justify-content: center;
-    
+  #serie .conteudo-text span {
+    text-align: justify;
+    line-height: 150%;
   }
+
   .conteudo-serie img {
     display: block;
     margin: auto;
-    max-width: 40%;
+    max-width: 100%;
     border-radius: 0.8rem;
   }
 }
