@@ -40,6 +40,11 @@ body {
   color: var(--color-white);
 
   padding: 0 1rem;
+
+
+  max-width: 1250px;
+  padding: 0;
+  margin: 0 auto !important;
 }
 
 .mt-1 {
